@@ -8,21 +8,9 @@
 /.bundle
 
 # Ignore the default SQLite database.
-# 
+/db/*.sqlite3
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
-
-# ignoring the rest of tempfiles
-
-tmp/**/*
-tmp /*
-
-
-doc/api
-doc/app
-
-*.swp
-*~
 .DS_Store
